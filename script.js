@@ -3,15 +3,16 @@
     - It should be compared to a variable named: numberToGuess
 */
 
-function randomNumber(userGuess, computersNumber) {
+
 
     // YOUR CODE BELOW
-
-
-
-
+    function randomNumber(userGuess, computersNumber){
+        console.log(userGuess);
+        console.log(computersNumber);
+    //;
+};       
     // YOUR CODE ABOVE
-};
+//};
 
 
 
@@ -32,6 +33,9 @@ function randomNumber(userGuess, computersNumber) {
 
 function startCompGuess(num) {
     // This should return a string that denotes the first guessed number
+    randomNumber()
+    console.log(randomNumber());
+    return "What is the current number"
 
     // YOUR CODE ...
 
@@ -41,9 +45,11 @@ function startCompGuess(num) {
 function compGuess(reply) {
     /* 
     *   The parameter "reply" will either be passing "lower", "correct", or "higher". This should be considered when evaluating th elogic and response.
-
     This should return a string indicating the computers response.
     */
+   randomNumber()
+   console.log(randomNumber());
+   return "What is the lower, correct or highe number"
 
-}
+};
 
